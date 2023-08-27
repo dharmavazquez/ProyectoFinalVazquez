@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3d3d3d;
+  }
+  
+  .main {
+    margin-top: 0;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  button {
+    padding: 10px 20px; 
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .oculto {
+    display: none;
+  }
+
+  /* Estilos previamente definidos */
+  .filtros {
+    background-color: rgb(207, 204, 204);
+    font-weight: bold;
+  }
+  .centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+  
+  .contenido {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(207, 204, 204)
+  }
+  .catalogo {
+    flex-basis: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .producto {
+    flex-basis: calc(33.33% - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .producto img {
+    width: 30%;
+  }
+  
+  .carrito {
+    flex-basis: 10%;
+    padding: 20px;
+    background-color: hsl(164, 9%, 40%);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .carrito h2 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .carrito .producto-carrito {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .carrito .producto-carrito img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .carrito .detalle-carrito {
+    flex-grow: 1;
+    text-align: left;
+  }
+  
+  .carrito .detalle-carrito p {
+    margin: 0;
+  }
+  
+  .carrito .producto-carrito .eliminar-carrito {
+    margin-left: auto;
+  }
+  
+  .carrito .subtotal-carrito {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  
+  .boton {
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .boton:hover {
+    background-color: grey;
+  }
+  
+
+  .producto h3 {
+    margin: 0;
+  }
+  
+  .producto p {
+    margin: 5px 0;
+  }
+  
+  .producto button {
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .producto button:hover {
+    background-color: grey;
+  }
+  
+  .oculto {
+    display: none;
+  }
+  footer {
+    background-color: #555555;
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .mensaje {
+    background-color: gray;
+    text-align: center;
+  
+  }
+  
+  .dark{
+    color: white;
+  }
+  
+  .light{
+    color: black;
+  }
+  
+  #inicioSesionForm {
+    display: block; 
+  }
+  
+  .oculto {
+    display: none;
+  }
+  
+  #mensajeBienvenida {
+    color: white;
+    background-color: #3d3d3d;
+    padding: 10px;
+    text-align: center;
+    display: none; 
+    font-weight: bold;
+  }

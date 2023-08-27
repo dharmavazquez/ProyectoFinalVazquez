@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "nombre": "YEEZY BOOST 350 V2",
+      "precio": 37000,
+      "stock": 8,
+      "tipo": "zapatilla",
+      "imagen": "imagenes/zapatillas1.png"
+    },
+    {
+      "id": 2,
+      "nombre": "ZAPATILLAS DE SENDERISMO TERREX FREE HIKER 2.0",
+      "precio": 46000,
+      "stock": 10,
+      "tipo": "zapatilla",
+      "imagen": "imagenes/zapatillas2.png"
+    },
+    {
+      "id": 3,
+      "nombre": "ZAPATILLAS SUPERSTAR XLG",
+      "precio": 41000,
+      "stock": 7,
+      "tipo": "zapatilla",
+      "imagen": "imagenes/zapatillas3.png"
+    },
+    {
+      "id": 4,
+      "nombre": "BOTAS CARMEN",
+      "precio": 31000,
+      "stock": 8,   
+      "tipo": "bota",
+      "imagen": "imagenes/botas1.png"
+    },
+    {
+      "id": 5,
+      "nombre": "TEXANAS FABRICIA",
+      "precio": 18000,
+      "stock": 11,
+      "tipo": "bota",
+      "imagen": "imagenes/botas2.png"
+    },
+    {
+      "id": 6,
+      "nombre": "BOTAS MARTINA",
+      "precio": 19000,
+      "stock": 9,
+      "tipo": "bota",
+      "imagen": "imagenes/botas3.png"
+    },
+    {
+      "id": 7,
+      "nombre": "Nike x Kasina Air Max 1 SP",
+      "precio": 38000,
+      "stock": 12,
+      "tipo": "zapatilla",
+      "imagen": "imagenes/zapatillas4.png"
+    },
+    {
+      "id": 8,
+      "nombre": "Nike Air Force 1 '07",
+      "precio": 33000,
+      "stock": 19,
+      "tipo": "zapatilla",
+      "imagen": "imagenes/zapatillas5.png"
+    },
+    {
+      "id": 9,
+      "nombre": "Nike Air Zoom Pegasus 39",
+      "precio": 58000,
+      "stock": 10,
+      "tipo": "zapatilla",
+      "imagen": "imagenes/zapatillas6.png"
+    }
+  ]
